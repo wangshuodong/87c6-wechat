@@ -1,0 +1,52 @@
+<view class='content'>
+  <view class='device'>
+    <view class='device-info'>
+      <view class='base-info'>
+        <view class='one-view'>
+          <image class="more-img" src="../../assets/img/notice.png"></image>
+        </view>
+        <view class='second-view'>
+          <view>
+            <text>{{"系统消息"}}</text>
+          </view>
+          <view>
+            <text>{{"系统升级"}}</text>
+          </view>
+        </view>
+        <image class="more-img" src="../../assets/img/more.png"></image>
+        <view class='third-view'>
+          <view>
+            <text></text>
+          </view>
+          <view>
+            <text>{{"更新:2018-3-20 19:40:20"}}</text>
+          </view>
+        </view>  
+      </view>
+    </view> 
+</view>
+  <view class="line"></view> 
+  <view class='device'>
+    <view class='device-info'>
+      <view class='base-info'>
+        <view class='one-view'>
+          <image class="more-img" src="../../assets/img/notice.png"></image>
+        </view>
+        <view class='second-view'>
+          <view>
+            <text>{{"年检"}}</text>
+          </view>
+          <view>
+            <text>{{"设备1"}}</text>
+          </view>
+        </view>
+        <image class="more-img" src="../../assets/img/more.png"></image>
+        <view class='third-view'>
+            <text>{{"更新:2018-3-20 19:40:20"}}</text>
+        </view>  
+          
+      </view>
+    </view> 
+</view>
+  <view class="line"></view> 
+</view>

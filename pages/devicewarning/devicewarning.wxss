@@ -1,0 +1,38 @@
+/* .content{
+  min-height: 100%
+}
+.device{
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 5px;
+}
+.device-info{
+  padding-left: 20px;
+} */
+.base-info{
+  font-size: 15px;
+  padding-top:10px;
+  padding-bottom: 40px;
+  vertical-align:middle;   
+  line-height: 20px;
+  flex-direction:row;
+}
+.line { 
+ width: 100%; 
+ height: 1px; 
+ background-color: #cccccc; 
+} 
+
+.one-view{
+  float:left;
+  padding-top: 10px;
+  padding-left: 10px;
+  font-size: 15px;
+  color: red
+}
+.second-view{
+  padding-right: 5px; 
+  display: flex;
+  flex-direction: column;
+  float:right;
+}

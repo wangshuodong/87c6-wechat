@@ -1,0 +1,10 @@
+<!--pages/personal/personal.wxml-->
+<view class='content'>
+  <view class='msg-view'><text>公司: {{personalData.departmentname}}</text></view>
+  <view class='msg-view'><text>用户名: {{personalData.account.username}}</text></view>
+  <view class='msg-view'><text>手机号: {{personalData.account.mobilephone}}</text></view>
+  <view class='msg-view'><text>邮箱: {{personalData.account.email}}</text></view>
+  <view class='btn-view' bindtap='loginOut'>
+    <button class="inputTextBtn" type="primary">退出登录</button>  
+  </view>
+</view>

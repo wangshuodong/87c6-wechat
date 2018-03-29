@@ -1,0 +1,50 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/weChatSendMsg/weChatSendMsg",
+    "pages/devicewarning/devicewarning",
+    "pages/listmode/listmode",
+    "pages/index/index",
+    "pages/notice/notice",
+    "pages/datachart/datachart",
+    "pages/map/map",
+    "pages/devicedetail/devicedetail",
+    "pages/personal/personal",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "87C6",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#2B2B2B",
+    "list": [
+      {
+        "pagePath": "pages/map/map",
+        "iconPath": "assets/img/index1.png",
+        "selectedIconPath": "assets/img/index.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "assets/img/deviceManage1.png",
+        "selectedIconPath": "assets/img/deviceManage.png",
+        "text": "我的设备"
+      },
+      {
+        "pagePath": "pages/notice/notice",
+        "iconPath": "assets/img/remind1.png",
+        "selectedIconPath": "assets/img/remind2.png",
+        "text": "消息中心"
+      },
+      {
+        "pagePath": "pages/personal/personal",
+        "iconPath": "assets/img/account1.png",
+        "selectedIconPath": "assets/img/account2.png",
+        "text": "个人中心"
+      }
+    ]
+  }
+}

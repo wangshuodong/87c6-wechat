@@ -1,0 +1,36 @@
+.warn-view{
+  height: 30px;
+  background-color: #AAAAAA;
+  opacity:0.8;
+  border-bottom:1px solid #000;
+}
+.close-view{
+  float: right;
+  padding-right: 10px;
+  padding-top: 2px;
+  color: red
+}
+.position-data-view{
+  font-size: 16px;
+  float: right;
+  padding-right: 70px;
+  padding-top: 5px;
+  color: red
+}
+.img-view{
+  height: 20px;
+  width: 20px;
+  padding-top: 2px
+}
+.more-view{
+  height: 30px;
+  background-color: #AAAAAA;
+  opacity:0.8;
+  display: flex;
+  justify-content:center;
+}
+.more-img-view{
+  height: 20px;
+  width: 20px;
+  padding-top: 3px
+}

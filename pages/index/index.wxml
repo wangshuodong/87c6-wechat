@@ -1,0 +1,44 @@
+<view class='content'>
+  <block wx:for="{{companyDeviceList}}">
+    <view class='device' bindtap="nextDetail" id="{{item.id}}">
+      <view class='device-info'>
+        <view class='base-info'>
+          <image class="more-img" src="../../assets/img/more.png"></image>
+          <text class='secondText'>{{item.deviceNum}}个设备</text>
+          <text class='company-view'>{{item.companyname}}</text>
+        </view>
+      </view>
+    </view>
+    <view class="line"></view>
+  </block>
+
+
+ 
+   <!-- 
+  <view class="line"></view>
+  <view class='device'>
+    <view class='device-info'>
+      <view class='base-info'>
+        <image class="more-img" src="../../assets/img/more.png"></image>
+        <text>{{"西南制药二厂"}}</text>
+        <text class='secondText'>{{"68个设备"}}</text>
+      </view>
+    </view>
+  </view>
+  <view class="line"></view>
+  <view class='device'>
+    <view class='device-info'>
+      <view class='base-info'>
+        <image class="more-img" src="../../assets/img/more.png"></image>
+        <text>{{"宜宾海丰和瑞"}}</text>
+        <text class='secondText'>{{"768个设备"}}</text>
+      </view>
+    </view>
+  </view>
+  <view class="line"></view> -->
+</view>
+<view class="body-view">
+  <loading hidden="{{hidden}}" bindchange="loadingChange">
+    加载中...
+  </loading>
+</view>

@@ -1,0 +1,12 @@
+/* pages/personal/personal.wxss */
+.content{
+  padding-left: 20px;
+  padding-top: 40px;
+  font-size: 14px;
+}
+.msg-view{
+  padding: 5px 5px 5px 0;
+}
+.btn-view{
+  padding: 30px 20px 0 30px;
+}

@@ -1,0 +1,10 @@
+<map id="map" longitude="106.526835" latitude="29.533139" scale="14" controls="{{controls}}" bindcontroltap="controltap" markers="{{markers}}" bindmarkertap="markertap" polyline="{{polyline}}" bindregionchange="regionchange" show-location style="width: 100%; height: 700px;">
+  <cover-view wx:for="{{warnDataList}}" wx:for-item="warnTeam" id="{{warnTeam.deviceId}}" class='warn-view' style='display:{{show}}'>
+    <cover-view class='close-view' bindtap="close" data-id="{{warnTeam.deviceId}}">x</cover-view>
+    <cover-view class='position-data-view'>{{warnTeam.devicePosition}}   {{warnTeam.probeData}}{{warnTeam.scopeUnit}}</cover-view>
+    <cover-image src='../../assets/img/notice.png' class='img-view'></cover-image>
+  </cover-view>
+  <cover-view class='more-view' bindtap='moreWarnData' id='{{warnDataList[0].companyId}}' hidden="{{hidden}}">
+    <cover-image src='../../assets/img/more-warn.png' class='more-img-view'></cover-image>
+  </cover-view>
+</map>

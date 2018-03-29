@@ -1,0 +1,38 @@
+<view class='content'>
+   <block wx:for="{{moreWarnDataList}}">
+    <view class='device'>
+      <view class='device-info'>
+        <view class='base-info'>
+          <view class='one-view'>
+            <view>
+              <text>{{item.devicePosition}}</text>
+            </view>
+          </view>
+          <view class='second-view'>
+            <text>{{item.probeData}}{{item.scopeUnit}}</text>
+            <text>{{item.createTime}}</text>
+          </view>
+        </view>
+      </view>
+    </view>
+    <view class="line"></view>
+  </block> 
+   <!-- <navigator url="../devicedetail/devicedetail" hover-class="navigator-hover">
+    <view class='device'>
+      <view class='device-info'>
+        <view class='base-info'>
+          <view class='one-view'>
+            <view>
+              <text>{{"设备2,液体原料室2"}}</text>
+            </view>
+          </view>
+          <view class='second-view'>
+            <text>{{"220ppm"}}</text>
+            <text>{{"2018-3-20 16:08:55"}}</text>
+          </view>
+        </view>
+      </view>
+    </view>
+    <view class="line"></view>
+  </navigator>  -->
+</view>

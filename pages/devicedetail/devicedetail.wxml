@@ -1,0 +1,30 @@
+<!--pages/personal/personal.wxml-->
+<view>
+  <view class='content'>
+    <view class='msg-view'><text>设备编号:{{companyCustom.sysId}}</text></view>
+    <view class='msg-view'><text>安装位置:{{companyCustom.installposition}}</text></view>
+    <view class='msg-view'><text>品牌:{{companyCustom.devicebrandname}}</text></view>
+    <view class='msg-view'><text>规格型号:{{companyCustom.formattypename}}</text></view>
+    <view class='msg-view'><text>气体类型:{{companyCustom.gastypename}}</text></view>
+    <view class='msg-view'><text>安装日期:{{companyCustom.installdate}}</text></view>
+    <view class='msg-view'><text>设备状态:{{companyCustom.status}}</text></view>
+  </view>
+  <view class='content1'>
+    <view class='msg-view'><text>维护记录:</text></view>
+    <view class='msg-view'><text>服务单号:</text></view>
+    <view class='msg-view'><text>维护时间:</text></view>
+    <view class='msg-view'><text>服务商名称:</text></view>
+    <view class='msg-view'><text>服务商电话:</text></view>
+    <view class='msg-view'><text>维护记录:</text></view>
+    <view class='msg-view'><text>安装位置:</text></view>
+  </view>
+
+  <view class='btn-view' bindtap='dataChart' id='{{companyCustom.sysId}}'>
+    <button class="inputTextBtn" type="primary">查看实时数据</button>  
+  </view>
+</view>
+<view class="body-view">
+  <loading hidden="{{hidden}}" bindchange="loadingChange">
+    加载中...
+  </loading>
+</view>
